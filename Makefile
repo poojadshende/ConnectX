@@ -8,7 +8,7 @@ GTEST_DIR = /usr/local/include/googletest/googletest
 
 # Flags passed to the preprocessor and compiler
 CPPFLAGS += --coverage -isystem $(GTEST_DIR)/include -std=c++11
-CXXFLAGS += -g -Wall -Wextra -pthread -fno-exceptions
+CXXFLAGS += -g -Wall -Wextra -pthread
 
 # All tests produced by this Makefile.
 TESTS = ConnectXTest
